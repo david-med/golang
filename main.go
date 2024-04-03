@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"golang/ejercicios"
+	"golang/iteraciones"
 )
 
 /*
@@ -33,6 +32,9 @@ import (
 */
 func main() {
 
-	val, msg := ejercicios.TextoAValor("hola")
+	/*val, msg := ejercicios.TextoAValor("200")
 	fmt.Println(val, msg)
+
+	teclado.IngresoNumeros()*/
+	iteraciones.Iteraciones()
 }
