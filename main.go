@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang/iteraciones"
+	"golang/files"
 )
 
 /*
@@ -35,6 +35,11 @@ func main() {
 	/*val, msg := ejercicios.TextoAValor("200")
 	fmt.Println(val, msg)
 
-	teclado.IngresoNumeros()*/
-	iteraciones.Iteraciones()
+	teclado.IngresoNumeros()
+	iteraciones.Iteraciones()*/
+	//fmt.Println(ejercicios.Multiplicar())
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	//files.LeoArchivo()
+	files.LeoArchivo2()
 }
