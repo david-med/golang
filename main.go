@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang/files"
+	"golang/arreglos_slices"
 )
 
 /*
@@ -41,5 +41,12 @@ func main() {
 	//files.GrabaTabla()
 	//files.SumaTabla()
 	//files.LeoArchivo()
-	files.LeoArchivo2()
+	//files.LeoArchivo2()
+
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlices()
+	arreglos_slices.Capacidad()
 }
