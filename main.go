@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang/arreglos_slices"
+	"golang/mapas"
 )
 
 /*
@@ -48,5 +48,6 @@ func main() {
 	//funciones.Exponencia(2)
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.MuestroSlices()
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
