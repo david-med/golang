@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang/mapas"
+	users "golang/Users"
 )
 
 /*
@@ -49,5 +49,6 @@ func main() {
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.MuestroSlices()
 	// arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	users.AltUsuario()
 }

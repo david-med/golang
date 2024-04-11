@@ -5,7 +5,7 @@ import (
 )
 
 func MostrarMapas() {
-	paises := make(map[string]string)
+	paises := make(map[string]string) //make (map[<tipo de dato de la clave>]<tipo de dato del valor>)
 	fmt.Println(paises)
 	paises["Mexico"] = "DF"
 	paises["Argentina"] = "Buenos Aires"
